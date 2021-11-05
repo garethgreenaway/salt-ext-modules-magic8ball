@@ -129,7 +129,7 @@ dmypy.json
 .pyre/
 
 # Ignore the setuptools_scm auto-generated version module
-src/saltext/8ball/version.py
+src/saltext/eight_ball/version.py
 
 # Ignore CI generated artifacts
 artifacts/

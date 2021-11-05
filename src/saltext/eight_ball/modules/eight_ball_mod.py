@@ -6,7 +6,7 @@ import random
 
 log = logging.getLogger(__name__)
 
-__virtualname__ = "eight_ball"
+__virtualname__ = "magic_eight_ball"
 
 
 def __virtual__():
@@ -15,7 +15,7 @@ def __virtual__():
     return __virtualname__
 
 
-def print():
+def show():
     """
     Return a random choice from Magic 8 Ball replies
 
@@ -23,7 +23,7 @@ def print():
 
     .. code-block:: bash
 
-        salt '*' eight_ball.print
+        salt '*' magic_eight_ball.print
     """
     replies = [
         {"result": True, "message": "Signs point to yes"},
